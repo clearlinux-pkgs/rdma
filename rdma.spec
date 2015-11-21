@@ -12,7 +12,6 @@ Source1: 98-rdma.rules
 Source2: rdma.service
 Source3: rdma-init-kernel
 BuildArch: noarch
-Requires: udev
 
 %description
 User space initialization scripts for the kernel InfiniBand/iWARP drivers
