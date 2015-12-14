@@ -36,15 +36,6 @@ install -m 0755 %{SOURCE3} %{buildroot}/usr/libexec/rdma-init-kernel
 %clean
 rm -rf %{buildroot}
 
-%post
-%systemd_post rdma.service
-
-%preun
-%systemd_preun rdma.service
-
-%postun
-%systemd_postun
-
 %files
 %defattr(-,root,root,-)
 /usr/lib/rdma/rdma.conf
