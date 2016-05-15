@@ -4,14 +4,13 @@
 Summary: Infiniband/iWARP Kernel Module Initializer
 Name: rdma
 Version: 1
-Release: 5
+Release: 6
 License: GPL-2.0+
 Group: System Environment/Base
 Source0: rdma.conf
 Source1: 98-rdma.rules
 Source2: rdma.service
 Source3: rdma-init-kernel
-BuildArch: noarch
 
 %description
 User space initialization scripts for the kernel InfiniBand/iWARP drivers
